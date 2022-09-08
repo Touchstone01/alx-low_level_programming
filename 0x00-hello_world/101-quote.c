@@ -2,19 +2,21 @@
 
 #include <unistd.h>
 
+
+
 /**
-
- * main - print quote
-
  *
-
- * Description: prints Dora's quote
-
+ *  * main - print quote
  *
-
- * Return: Always 1 (Success)
-
- */
+ *   *
+ *
+ *    * Description: prints Dora's quote
+ *
+ *     *
+ *
+ *      * Return: Always 1 (Success)
+ *
+ *       */
 
 
 
