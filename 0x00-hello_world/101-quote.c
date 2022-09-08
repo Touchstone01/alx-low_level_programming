@@ -6,7 +6,7 @@
 
 /**
  
-   * main - print quote
+    *main - print quote
     *Description: prints Dora's quote
     *Return: Always 1 (Success)
 */
