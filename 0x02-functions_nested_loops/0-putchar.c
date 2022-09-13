@@ -1,29 +1,27 @@
 #include "main.h"
 /**
  *
- *  * main - prints Best School
+ *  main - prints Best School
+ 
+ *  Description: prints Best School
  *
- *   *
- *
- *    * Description: prints Best School
- *
- *     *
- *
- *      * Return: 0 (Success)
+ *Return: Always 0 (Success))
  */
 
 int main(void)
 
 {
-
 	char text[11] = "Best School";
+	int i = 0;
 
-
-	for (int i = 0; i < 9; i++)
+	for (i = 0; i < 9; i++)
+	{
 		_putchar(text[i]);
-		_putchar('\n');
+	}
+	_putchar('\n');
 
 	return (0);
+
 
 }
 
