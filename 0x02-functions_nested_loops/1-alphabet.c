@@ -1,5 +1,6 @@
 #include "main.h"
 
+<<<<<<< HEAD
 
 
 /*
@@ -19,5 +20,16 @@ void print_alphabet(void)
 	for (i = 'a'; i <= 'z'; i++)
 		_putchar(i);
 	_putchar('\n');
+=======
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+	print_alphabet();
+	return (0);
+>>>>>>> ee781bc240f446a7fbf5ebc0a4b7495450ec4c1b
 }
 
