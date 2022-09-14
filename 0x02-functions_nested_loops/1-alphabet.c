@@ -8,7 +8,7 @@
  *
  *    * Return: Always 0.
  *
- *     */
+ */i
 void print_alphabet(void)
 
 {
