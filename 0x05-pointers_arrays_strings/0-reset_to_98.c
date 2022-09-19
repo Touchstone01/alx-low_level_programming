@@ -1,3 +1,3 @@
 #include "main.h"
 
-int  *n = 98;
+n = 98;
