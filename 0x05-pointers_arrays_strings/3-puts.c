@@ -3,7 +3,7 @@
  * _puts - A function that prints a string
  * @str - string 
  * Return: void
-
+*/
 void _puts(char *str)
 {
 	int i = 0;
