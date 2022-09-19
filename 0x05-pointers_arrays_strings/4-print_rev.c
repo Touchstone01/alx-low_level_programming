@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _rev - A function that prints a string
+ * print_rev - A function that prints a string
  * @s: string
  * return: void
  */
