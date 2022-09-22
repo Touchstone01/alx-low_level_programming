@@ -44,7 +44,7 @@ void rev_n_string(char *s, int n)
  * Return: pointer to the result if buffor is not overflowed, else 0
  */
 
-char	*infinite_add(char *n1, char *n2, char *r, int size_r)
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int l1 = _strlen(n1), l2 = _strlen(n2);
 	int ret = 0, j = 0, k = 0, tmp, a, b;
