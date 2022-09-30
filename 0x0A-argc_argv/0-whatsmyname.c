@@ -1,9 +1,15 @@
+#include ".h"
 #include <stdio.h>
-#include <stdlib.h>
 
-int main(int argc, char **argv)
+/**
+ *  * main - prints program name
+ *   * @argc: number of arguments
+ *    * @argv: array of arguments
+ *     * Return: (0)
+ *      */
+
+int main(__attribute__((unused)) int argc, char *argv[])
 {
-        while(argc--)
-                printf("%s\n", *argv++);
-        exit(EXIT_SUCCESS);
+		printf("%s\n", argv[0]);
+			return (0);
 }
