@@ -10,8 +10,7 @@ include "main.h"
 
 int main(int argc, __attribute__((unused)) char *argv[])
 {
-		int args = argc - 1;
-
-			printf("%d\n", args);
-				return (0);
+	int args = argc - 1;
+		printf("%d\n", args);
+	return (0);
 }
