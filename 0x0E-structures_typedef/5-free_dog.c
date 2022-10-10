@@ -1,17 +1,16 @@
-#include <stdio.h>
 #include "dog.h"
-
+#include <stdlib.h>
 /**
- * main - check the code that free dog
- *
- * Return: Always 0.
- */
-int main(void)
+ * free_dog - frees dogs.
+ * @d: pointer to a dog of type dog_t
+ * Return: nothing
+ **/
+void free_dog(dog_t *d)
 {
-  dog_t *my_dog;
-
-  my_dog = new_dog("Django", 3.5, "Jay");
-  printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog->name, my_dog->age);
-  free_dog(my_dog);
-  return (0);
+	if (d != NULL)
+	{
+		free(d->name);
+		free(d->owner);
+		free(d);
+	}
 }
