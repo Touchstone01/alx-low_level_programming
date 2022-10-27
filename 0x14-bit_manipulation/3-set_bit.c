@@ -1,18 +1,20 @@
 #include "main.h"
 
 /**
- * set_bit - A function that sets a bit at given index to 1
- * @n: The number to set bit in
- * @index: The index to set bit at
- * Return: 1 if it worked, or -1 on error
+ * set_bit - sets the value of a bit to 1 at a given index
+ * @n: integer
+ * @index: index to set 1
+ * Return: integer
  */
+
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned long int max = 0x01;
+	unsigned long int mask;
 
-	max <<= index;
-	if (max == 0)
+	if (index >= (sizeof(*n) * 8))
 		return (-1);
-	*n |= max;
+	mask = 1;
+	*n = *n | (mask << index);
+
 	return (1);
 }
