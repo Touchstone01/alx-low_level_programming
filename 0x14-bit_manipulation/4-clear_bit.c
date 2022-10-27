@@ -1,18 +1,23 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * clear_bit - A function that sets a bit to 0 at given index
- * @n: The number to set bit in
- * @index: The index to set bit at
- * Return: 1 if it worked, or -1 on error
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-int clear_bit(unsigned long int *n, unsigned int index)
+int main(void)
 {
-	unsigned long int max = 0x01;
+  unsigned long int n;
 
-	max = ~(max << index);
-	if (max == 0x00)
-		return (-1);
-	*n &= max;
-	return (1);
+  n = 1024;
+  clear_bit(&n, 10);
+  printf("%lu\n", n);
+  n = 0;
+  clear_bit(&n, 10);
+  printf("%lu\n", n);
+  n = 98;
+  clear_bit(&n, 1);
+  printf("%lu\n", n);
+  return (0);
 }
